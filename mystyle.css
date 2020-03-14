@@ -1,0 +1,36 @@
+ul {
+  list-style-type: none; //removes bullets
+  margin: 0; //remove browser default settings
+  padding: 0; //remove browser default settings
+}
+
+li {
+  float: left;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  text-decoration: none;
+  color: #777;
+  font-family: 'Roboto', sans-serif;
+  font-size: small;
+}
+a:hover{
+  text-decoration: underline;
+}
+
+.navbar{
+  color: #333;
+}
+
+
+.google-container {
+  text-align: center;
+}
+
+.google-search-box{
+  display: inline-block;
+  width: auto;
+  height: auto;
+}
