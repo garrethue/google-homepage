@@ -16,8 +16,9 @@ a {
   font-family: 'Roboto', sans-serif;
   font-size: small;
 }
+
 a:hover{
-  text-decoration: underline;
+  text-decoration: underline; //hover will underline links
 }
 
 .navbar{
@@ -25,12 +26,37 @@ a:hover{
 }
 
 
-.google-container {
-  text-align: center;
+.google-container-center {
+  width: 300px;
+	height: 300px;
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+  //background: blue;
+
+	margin: auto;
 }
 
-.google-search-box{
-  display: inline-block;
-  width: auto;
-  height: auto;
+#artiststhumbnail{
+    display:block;
+    margin:auto;
+}
+
+input[type="text"]{
+  position:relative;
+  display:block;
+  margin: 0 auto; //centers the search box within the div container
+
+}
+
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #F2F2F2;
+  color: white;
+  text-align: center;
 }
