@@ -48,8 +48,9 @@ input[type="text"]{
   display:block;
   border-radius: 50px;
   margin: 0 auto;
-  border: 1px solid #333;
-  padding: 15px 255px 15px 80px;
+  border: 1px solid #F2F2F2;
+  padding: 15px 300px 15px 40px;
+  box-shadow: 0.5px 0.5px 5px #777;
 
   //the above centers the search box within the div container
 
@@ -64,4 +65,19 @@ input[type="text"]{
   background-color: #F2F2F2;
   color: white;
   text-align: center;
+}
+
+button[type="button"]{
+  margin-left: 10px;
+  margin-top: 10px;
+  padding: 10px 25px 10px 25px;
+  font-family:'Roboto', sans-serif;
+  font-size: 13px;
+  background-color: #F2F2F2;
+  border-color: #F2F2F2;
+  color:#777; //font color
+}
+
+#google-search-button{
+  margin-left: 112px;
 }
