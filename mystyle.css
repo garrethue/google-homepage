@@ -26,28 +26,33 @@ a:hover{
 }
 
 
-.google-container-center {
-  width: 300px;
+.google-container{
+  width: 500px;
 	height: 300px;
 	position: absolute;
 	top:0;
 	bottom: 0;
 	left: 0;
 	right: 0;
-  //background: blue;
-
 	margin: auto;
 }
 
 #artiststhumbnail{
     display:block;
-    margin:auto;
+    margin:0 auto;
+    margin-bottom: 15px;
 }
 
 input[type="text"]{
   position:relative;
   display:block;
-  margin: 0 auto; //centers the search box within the div container
+  border-radius: 50px;
+  margin: 0 auto;
+  border: 1px solid #333;
+  padding: 15px 255px 15px 80px;
+
+  //the above centers the search box within the div container
+
 
 }
 
