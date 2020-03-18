@@ -1,1 +1,1 @@
-This project is to demonstrate my competency to deconstruct a webpage and rebuild it, to use Chrome DevTools for troubleshooting, and to use git/GitHub for version control
+This project is to demonstrate my competency to deconstruct a webpage and rebuild it using HTML and CSS, to use Chrome DevTools for troubleshooting, to use git for version control, and GitHub for remote access.
